@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+#grid{
+	display: grid;
+	width: 650px;
+	height: 500px;
+	background-color: green;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(5,1fr);
+	color: white;
+	font-size: 20px;
+	
+}
+#a{
+	grid-column-start:1;
+	grid-column-end: 5;
+	border: 3px solid white;
+}
+#b{
+	grid-row-start: 2;
+	grid-row-end: 6;
+	border: 3px solid white;
+}
+#c{
+	grid-column-start:2;
+	grid-column-end: 3;
+	border: 3px solid white;
+}
+#d{
+	grid-column-start:3;
+	grid-column-end: 5;
+	border: 3px solid white;
+}
+#e{
+	grid-column-start:2;
+	grid-column-end: 4;
+	border: 3px solid white;
+}
+#f{
+	grid-column-start:4;
+	grid-column-end: 5;
+	border: 3px solid white;
+}
+#g{
+	grid-column-start:2;
+	grid-column-end: 3;
+	border: 3px solid white;
+}
+#h{
+	grid-column-start:3;
+	grid-column-end: 4;
+	border: 3px solid white;
+}
+#i{
+	grid-column-start:4;
+	grid-column-end: 5;
+	border: 3px solid white;
+}
+#j{
+	grid-column-start:2;
+	grid-column-end: 5;
+	border: 3px solid white;
+}
